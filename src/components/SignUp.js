@@ -10,7 +10,7 @@ function SignUp(){
   Axios.post("http://localhost:3005/register", {
     userName: name,
     userEmail: email,
-    UserPassword: password,
+    userPassword: password,
   }).then((response)=>{
     console.log(response)   
   })
